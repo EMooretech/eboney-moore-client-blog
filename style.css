@@ -1,0 +1,170 @@
+body{
+    background-image: url(images/backgroundCB.jpg);
+    color: #FFC0CB;
+    }
+
+h1, h2{
+    border: 5px solid #FFC0CB;
+    background-color: #808080;
+    width:35%;
+    margin-left: 400px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px -1px 29px rgba(237, 63, 150, 0.98);
+      }
+
+ 
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    background:#808080;
+    border:6px solid #FFC0CB;
+    border-radius: 15%;
+    font-size: x-large;
+    padding: 5px;
+    font-family:'afacad flux', sans-serif;
+    margin-bottom: 2px;        }
+
+    
+.button1{ 
+    color: #FB288E;
+    text-decoration: none;
+    
+        
+        } 
+    
+
+.button2{
+    justify-content: flex-end;
+    color:#FB288E;
+    text-decoration:none;
+
+        }
+   
+aside{
+    float: right;
+    height: 500px;
+    margin-top: 35px;
+    padding-right:20px;
+    color: #FFC0CB;
+    border: 15px solid #FFC0CB;
+    background-image:  url("images/passport-CB2.jpg");
+    font-size: x-large;
+    font-family: 'afacad flux', sans-serif;
+     }
+
+.todo{
+    color:#FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(251, 40, 142, 1);
+    background-image: linear-gradient(228deg, rgba(252, 89, 183, 1) 0%, rgba(209, 22, 205, 0.31) 100%),  url();
+    background-size: 50%;
+    background-position: 100% center;
+    background-repeat: repeat-y;
+    padding: 5px;
+     }
+         
+h3{
+    color: #FFC0CB;
+    font-size: medium;
+    font-weight: 100;
+    height: 50px;
+  }  
+
+
+ul li{
+    background-color: #808080;
+     }
+
+li::marker{
+        color: #FB288E;
+          }
+
+
+.main{
+    border: 5px solid #FFC0CB;
+    width: 15%;
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 25%;
+
+     }
+
+img{
+    border: 10px solid #FFC0CB;
+    }
+    
+.img1{
+    margin-top: 30px;
+    margin-left: 100px;   
+     }
+   
+
+p{
+   width:30%; 
+   border: 7px solid #FFC0CB;
+   padding: 10px;
+   color: #FFC0CB;
+   font-size: larger;
+   background-color: #808080;
+   font-family:'afacad flux', sans-serif;
+ }
+
+p::first-line{
+    color: #FFFFFF;
+}
+
+
+figure{
+    margin: 35px;
+    text-align: center;
+
+      }
+
+figcaption{
+    font-size: x-large;
+    color: #FFFFFF;
+    font-family: 'afacad flux', sans-serif;
+    font-weight: 700;
+          }
+
+figcaption ~ .q1,.q2{
+    color: #FB288E;
+    font-size: small;
+                    }
+
+form{
+    display: flex;
+    justify-content:flex-end;
+    margin:15px;
+    }
+  
+.flname{
+   color: #FFC0CB;
+   font-family: 'afacad flux',sans-serif;
+       }  
+  
+.text{
+    color: #808080;
+    background: #FFC0CB; 
+    border: 1px solid #FB288E;
+
+     }   
+
+.btn{
+    border-color: hotpink;
+    font-family: 'afacad flux', sans-serif;
+    background: #FFC0CB;
+    color: #808080;
+    }    
+
+footer{
+    border: 5px solid #808080;
+    border-radius: 15%;
+    text-align: center;
+    background-color: #808080;
+    font-size: x-large;
+      }
+
+
